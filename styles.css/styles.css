@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9ff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  background-color: #f7f9ff;
+}
+
+.navbar-right ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar-right ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-right ul li a.cart {
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-right ul li a.home {
+  font-weight: bold;
+  color: #000;
+}
+
+
+/* Banner Section */
+.banner {
+  background-color: #f8f9ff;
+  padding: 80px 150px;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.text-content .bold {
+  font-weight: 800;
+  color: #000;
+}
+
+.text-content .orange {
+  color: #f45d00;
+  font-weight: 800;
+}
+
+.text-content p {
+  color: #6e6e6e;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.banner-img {
+  width: 500px;
+  max-width: 100%;
+}
+
+/* Plant Section */
+.plant-section {
+  text-align: center;
+  padding: 60px 150px;
+}
+.plant-section h2 {
+  font-size: 36px;
+}
+.plant-desc {
+  color: #666;
+  max-width: 600px;
+  margin: 10px auto 40px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.product-card {
+  background: transparent;
+  padding: 1px;
+  text-align: center;
+}
+.product-card img {
+  width: 300px;
+}
+.product-card h3 {
+  font-weight: normal;
+  margin: 10px 0 0;
+}
+.product-card .price {
+  font-weight: bold;
+  margin: 5px 0;
+}
+.product-card button {
+  background-color: #f15a24;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Lover Section */
+.lover-section {
+  padding: 60px 150px;
+}
+.lover-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.lover-image {
+  width: 40%;
+}
+.lover-text {
+  width: 60%;
+}
+.lover-text h2 {
+  font-size: 50px;
+  color: #000;
+}
+.lover-text ul {
+  padding-left: 20px;
+  color: #555;
+}
+
+/* Newsletter */
+.newsletter {
+  margin-top: 60px;
+}
+.newsletter-bg {
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+.newsletter-bg h2 {
+  color: white;
+  font-size: 36px;
+}
+.newsletter-bg form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.newsletter-bg input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.newsletter-bg button {
+  padding: 10px 20px;
+  background-color: #f15a24;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9fb;
+  padding: 60px 150px;
+  color: #555;
+  font-size: 16px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+.footer-left p {
+  max-width: 250px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.footer-center {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-column a {
+  text-decoration: none;
+  color: #666;
+  transition: 0.2s;
+}
+
+.link-column a:hover {
+  color: #e55473;
+}
+
+.footer-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  min-width: 180px;
+}
+
+.footer-right img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer;
+}
