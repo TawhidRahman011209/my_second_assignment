@@ -65,7 +65,7 @@ body {
   color: #000;
 }
 
-.text-content .orange {
+.plant-section .orange {
   color: #f45d00;
   font-weight: 800;
 }
@@ -89,6 +89,9 @@ body {
 }
 .plant-section h2 {
   font-size: 36px;
+}
+.text-content .orange{
+  color: #f45d00;
 }
 .plant-desc {
   color: #666;
